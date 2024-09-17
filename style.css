@@ -22,6 +22,7 @@ body{
     overflow-x: hidden;
     background-color: black;
     color: white;
+    cursor: url("C:\Users\aksha\OneDrive\Documents\WhatsApp Image 2024-08-19 at 19.09.55_6877333f.jpg"), auto;
 }
 
 .header{
@@ -29,6 +30,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
+    height: 16px;
     padding: 20px 100px;
     background: rgba(225,255,255, .1);
     display: flex;
@@ -318,23 +320,52 @@ span{
   
   h3{
     margin: 5px;
-    
-  }
-  .about p{
-    text-align: center;
-    
-    
-    background-color: black;
-    
-    font-size: 1.1rem;
-    color: white;
-    letter-spacing: 0.2rem;
-    font-weight: 600;
-    
-    transition: 0.3s ease;
-    cursor: pointer;
 
+    
   }
+
+  #abt{
+       font-size: 300%;
+       margin-left: 100px;
+       color: aqua;
+       text-decoration: underline;
+  }
+  .about pre{
+    font-size: medium;
+    color: white;
+  }
+  #skill12{
+    font-size: 300%;
+    margin-left: 100px;
+    color: aqua;
+    text-decoration: underline;
+}
+#skill13{
+  font-size: 300%;
+  margin-left: 100px;
+  color: aqua;
+  text-decoration: underline;
+}
+#certificate{
+  font-size: 300%;
+  margin-left: 100px;
+  color: aqua;
+  text-decoration: underline;
+}
+#prj{
+  font-size: 300%;
+  margin-left: 100px;
+  color: aqua;
+  text-decoration: underline;
+}
+#container{
+  font-size: 300%;
+  margin-left: 100px;
+  color: aqua;
+  text-decoration: underline;
+}
+
+
   .skill{
     width: 500px;
     margin: 60px auto;
@@ -374,7 +405,7 @@ span{
     animation: html 3s;
   }
   .css{
-    width: 50%;
+    width: 70%;
     animation: css 3s;
   }
   .python{
@@ -384,6 +415,18 @@ span{
   .java{
     width: 60%;
     animation: java 3s;
+  }
+  .excel{
+    width: 80%;
+    animation: excel 3s;
+  }
+  .java1{
+    width: 30%;
+    animation: java1 3s;
+  }
+  .android-studio{
+    width: 80%;
+    animation: excel 3s;
   }
   @keyframes html{
     0%{
@@ -398,7 +441,7 @@ span{
       width: 0%;
     }
     100%{
-      width: 50%;
+      width: 70%;
     }
   }
   @keyframes python{
@@ -417,6 +460,30 @@ span{
       width: 60%;
     }
   }
+  @keyframes excel{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 80%;
+    }
+  }
+  @keyframes java1{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 30%;
+    }
+  }
+  @keyframes android-studio{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 80%;
+    }
+  }
 
   *{
     font-family: Gill Sans,Sans-Serif;
@@ -429,9 +496,10 @@ span{
     text-transform: uppercase;
     
   }
-  h1{
-    text-align: center;
-    display: inline-block;
+  .abt{
+    text-align:center;
+    display:contents;
+    margin-left: 100px;
     padding: 1rem 2.8rem;
     background-color: black;
     border-radius: 4rem;
@@ -507,6 +575,10 @@ span{
     width: 60%;
     animation: java 3s;
   }
+  .problem-solving{
+    width: 70%;
+    animation: problem-solving 3s;
+  }
   @keyframes comunication{
     0%{
       width: 0%;
@@ -523,6 +595,14 @@ span{
     }
     100%{
       width: 60%;
+    }
+  }
+  @keyframes problem-solving{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 70%;
     }
   }
 
@@ -556,46 +636,26 @@ span{
       text-align: center; /* Center the text inside each list item */
     }
    .certifications-list img {
-      width: 150px; /* Adjust the width as needed */
+      width: 250px; /* Adjust the width as needed */
       height: auto; /* Maintain the aspect ratio */
       border: 2px solid aqua; /* Change the border color as needed */
     }
-    .prj a{
-      
-      position: relative;
-      justify-content: center;
-      background-color: black;
-      
-      font-size: 1.1rem;
+    .certifications-list a{
+      font-size: 1.2rem;
       color: white;
-      letter-spacing: 0.2rem;
-      font-weight: 600;
-      
-      transition: 0.3s ease;
-      cursor: pointer;
-  
-    }
-    .button{
-      display: inline-block;
-      padding: 0.5rem 0.1rem;
-      background-color: black;
-      border-radius: 4rem;
-      font-size: 1.6rem;
-      color: aqua;
-      letter-spacing: 0.1rem;
+      margin-left: 2rem;
       font-weight: 500;
-      border: 1px solid aqua;
       transition: 0.3s ease;
-      cursor: pointer;
-  }
-  
-  .button:hover{
-      transform: scale3d(1.03);
-      background-color: aqua;
-      color: black;
-      box-shadow: 0 0 25px aqua;
-  }
+      border-bottom: 3px solid transparent;
+      border: 1px solid aqua;
+    }
+    .certifications-list a:hover{
+      color: aqua;
+      border-bottom: 3px solid aqua;
+    }
+   
 
+ 
 
 
 
@@ -607,6 +667,7 @@ span{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 100px;
 }
 .item{
   width: 100%;
@@ -737,5 +798,55 @@ textarea.input{
               0 0 200px aqua;
   -webkit-box-reflect: below 1px linear-gradient(transparent black);            
 }
+
+
+
+.about{
+  box-shadow: 0 0 20px aqua;
+  background-color: black;
+  height: fit-content;
+  border-radius: 50px 30px;
+  border-bottom: 1px solid rgba(225,255,255, .2);
+  
+}
+.brd{
+  box-shadow: 0 0 20px aqua;
+  background-color: #161616;
+  height: fit-content;
+  
+  
+  
+}
+.bro{
+  box-shadow: 0 0 20px aqua;
+  background-color: #161616;
+  height: fit-content;
+ 
+  
+  
+  
+}
+.cer{
+  box-shadow: 0 0 20px aqua;
+  background-color: black;
+  height: fit-content;
+  border-radius: 50px 30px;
+  width: 80%;
+  height: 80vh;
+  margin-left: 100px;
+
+
+}
+.cer1{
+  box-shadow: 0 0 20px aqua;
+  background-color:black;
+  height: fit-content;
+  border-radius: 50px 30px;
+  width: 80%;
+  height: 80vh;
+  margin-left: 100px;
+
+}
+
 
 
